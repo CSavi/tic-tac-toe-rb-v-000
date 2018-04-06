@@ -49,8 +49,6 @@ def turn(board)
     move(board, index, current_player(board))
     display_board(board)
   else
-    #binding.pry
-    #puts "Try again."
     turn(board)
   end
 end
